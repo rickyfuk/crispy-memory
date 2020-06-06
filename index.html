@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Activity 1: Basic HTML Bio</title>
+  <title>Activity 1: Basic HTML Bio with CSS stylesheet</title>
+  <link rel="stylesheet" type="text/css" href="asset/style.css">
 </head>
 
 <body>
@@ -11,18 +12,18 @@
   <!-- Site Header -->
   <header>
     <!-- h1: The most important headline -->
-    <h1>My Bio</h1>
+    <h1>Student Bio</h1>
   </header>
 
-  <div>
+  <div class = "container">
 
     <!-- Section 1: Bio -->
-    <section>
+    <section id= "main-bio">
       <!-- h2: Tier-2 Headline (Not as important as the h1 header, but more than one allowed). -->
       <h2>Chung Hei Fuk (Ricky)</h2>
 
       <!-- Image with link -->
-      <img src="https://lh3.googleusercontent.com/k4noAO-VZu4Ex2U9NyohdU2TxAS4e0EJKdQNQyslUjaeE57XKqjLr8cn1nm85ZeS5rt0z21bG9Uq4WZIpY2jp-9DfIl-oifTCn3kWbAhd1RHoqGSBtIw2nPLVSIv-eVO4H2wz21VTqU4AeO1o_oyC0C-ZaMUZpwtR6FWD8jnRggVL_ZVrLRcQVVTObglG4tDMGnRhi5BwwuzAapZRSBkiT5Hdi8VdBNATO6O_uQSkFXVu_GO-FjyLBIXoUunJi_IEdyijTxke5HdeG_PzcrXBTyiGdjN9oKFULho2mEKDARxNCTe9HQ1PQ4UX0CqZvXs_OnCwYZY5qXEBy922R8dh9luXlRLe-Ekd3fUpTHan6WlTLxhjklIvvVDn10-3XfWRPuL71k3ArYcu-_3RsbJK5JCpaMgs7cZPnMaWKEyW6FoTkeKWnWAIOxi7bjhlcQMQDEhFDFe56sGtMu2Pw02hCBOA7158bhXO4rG90e0HlvZwm5bwvNmeulRUVV9jYREN27llQo0Ukjdg5iLtKVL3qUmMTYWT-p8EYDHRr860ZbQlDxopkMR_V6iM1m3ZHw-0tIEi6obJ4OHAzjzsoKytCUnMwq1RhrQ1Ymaj4KkDweutgbt-V2rQWVDc4UJizvhDrMUXYaca0oTpqmIH1TaPSaxq_aFB-aib6kEEUdPO-rpUbZq4ALA0RZMfPka=w295-h453-no?authuser=0" alt="RickyFuk">
+      <img id= "bio-image" src="https://lh3.googleusercontent.com/tgPT4co_fLsFEQiOjmq-ffCUppfPghwBqtWOtLz0A8FvOueXwVpiEvDozIIaZdSF7VaeshblqnGy2utUNcx-twHKHJd__LJmgk9yurQ2CReOVpIAR85x3QwzdxEzMgVZ-eoupjiWZ18zVNBxJEddGbozuj02X977eVxGFGN0027wFN6Eer98TjN9f0z-JB9_osB8VqoI87G8_85MutZLGOgA7d-gRYrVolOby-OPnWCGPPS74zjJcMkVDncq7JY0U0Slxf0pcqfzL_ETTKJuRHkEeJwJItka-hOmEFj0SAHWsdjUeL9bSDykZzK9T7lymOs5d4v8lTxWyVR28xjl7j8GP2LtcTIRfLKab91EVIJb0s2UMZRRAESPDZjRD-yVibtuDBCirTpT7jFyMteHIhGUg3xQBBWTbW8eIovkJ1mk_wpj6bD-8sDx8JFIT0GiXarJA4gGHzqyV1hLIgq29cKOyazer5ZQV7N3fMs7uzrEXxMerr90tANztRMwdfjHYkPOOBSs8-RSjtpfHpgen2i47YmUtBPkASrlCfB_-tXIf-UmsQiV0lyESO2U8i7IEdV79UI_XBjUlabC8wRzSTHs_L_NlBhWrTdsrnpqmzruQro8lUvde8dI3tjO4wvSvpmQewzMaa30CwkIbJ555A4b-WtIjTkaxOFZndgoSAedSYOZfDu2EC0yCC91=w290-h272-no?authuser=0" alt="RickyFuk">
 
       <!-- Paragraph with embedded link -->
       <p>
@@ -32,7 +33,7 @@
     </section>
 
     <!-- Section 2: Contact Info -->
-    <section>
+    <section id= "contact-info">
 
       <!-- h2: Tier-2 Headline -->
       <h2>Contact Info</h2>
